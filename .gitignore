@@ -1,0 +1,7 @@
+/RemoteSystemsTempFiles/
+/cuda_study/Debug/
+/cuda_study/Release/
+/openmp_study/Debug/
+/openmp_study/Release/
+*.stackdump
+.metadata/
