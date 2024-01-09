@@ -8,16 +8,11 @@
  * this software and related documentation outside the terms of the EULA
  * is strictly prohibited.
  */
-#include <stdio.h>
-#include <stdlib.h>
-
-#include <cuda.h>
-
-extern void reduce_test();
-extern void gemm_test();
+#include "cuda_func.h"
 
 int main(int argc, char **argv)
 {
-	gemm_test();
+	//gemm_test();
+	show_device_prop();
 	return 0;
 }

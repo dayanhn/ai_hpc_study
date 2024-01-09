@@ -1,10 +1,3 @@
-
-#include <stdio.h>
-#include <stdlib.h>
-#include <cuda.h>
-#include <sys/time.h>
-#include <cuda_runtime.h>
-#include <time.h>
 #include "util_func.h"
 
 #define THREAD_PER_BLOCK 1024

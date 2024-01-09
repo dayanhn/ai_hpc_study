@@ -7,7 +7,15 @@
 
 #ifndef UTIL_FUNC_H_
 #define UTIL_FUNC_H_
+#include <stdio.h>
+#include <stdlib.h>
+#include <cuda.h>
+#include <sys/time.h>
+#include <cuda_runtime.h>
+#include <time.h>
+#include <iostream>
 
+using namespace std;
 
 double cpuSecond();
 void check(float *a,float *b,int m,int n);
